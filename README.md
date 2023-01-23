@@ -149,6 +149,8 @@ check log node gunakan di dalam `cd muon-node-js`
 docker compose logs -f
 ```
 
+[![Screenshot-2023-01-24-043510.png](https://i.postimg.cc/7L0dLYc6/Screenshot-2023-01-24-043510.png)](https://postimg.cc/94XJ8Vc5)
+
 ### Art-Team INFO
 
 noted: **art team** here does not have any specific goals or intentions, they only collect data and share it with everyone.
