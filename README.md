@@ -147,7 +147,7 @@ git clone https://github.com/muon-protocol/muon-node-js.git --recurse-submodules
 cd muon-node-js
 ```
 
-- Upload file `backup.env` yang di simpan sebelumnya di VPS lama
+- Upload file `backup.env` yang di simpan sebelumnya dari VPS lama
 - Install & Run File backup
 
 ```
