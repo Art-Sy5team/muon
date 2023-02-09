@@ -160,7 +160,8 @@ docker-compose restart
 
 - Buka http://IP-VPS:8000/status
 - Bagian IP-VPS ganti dengan Ip VPS anda
-- Paste di browser
+- Paste di browser & cek dashboard juga
+-done
 
 Jika proses backup berhasil, status node akan muncul `address` dan `peerId` dari node yang di backup sebelumya.
 
