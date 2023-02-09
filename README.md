@@ -21,7 +21,7 @@
 - buka website [chainlist.org](https://chainlist.org/)
 - add RPC BSC testnet 'pilih server RPC score dan privacy **aktif**'
 
-[![addbsc.png](https://i.postimg.cc/W4Xqf4Qy/addbsc.png)](https://postimg.cc/JyHhsR73)
+[![bsc.png](https://i.postimg.cc/bJwMyBNT/bsc.png)](https://postimg.cc/jWBvvvfw)
 
 <h2 align="center"><strong>Setup Dashbord NODE</strong></h2>
 
