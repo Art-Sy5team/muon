@@ -117,6 +117,53 @@ docker compose logs -f
 
 - Buka [Dashbord Node](https://alice.muon.net/) relog dan connect ulang untuk melihat reward dan status NODE!
 
+<h2 align="center"><strong>Backup dan Save</strong></h2>
+
+## Backup file Muon
+
+```
+cd muon-node-js
+```
+
+```
+docker cp muon-node:/usr/src/muon-node-js/.env ./backup.env
+```
+
+- Download & simpan file backup.env
+
+## Memindahkan NODE Ke VPS Baru
+Noted: ini khusus jika ingin memindahkan NODE ke VPS baru!
+
+- Ikuti Tutorial dibagian **Setup NODE** di VPS baru
+- lanjut clone NODE Muon
+
+```
+git clone https://github.com/muon-protocol/muon-node-js.git --recurse-submodules --branch testnet
+```
+
+- setelah berhasil masuk ke folder
+
+```
+cd muon-node-js
+```
+
+- Upload file `backup.env` yang di simpan sebelumnya di VPS lama
+- Install & Run File backup
+
+```
+docker cp backup.env muon-node:/usr/src/muon-node-js/.env
+```
+
+```
+docker-compose restart
+```
+
+- Buka http://IP-VPS:8000/status
+- Bagian IP-VPS ganti dengan Ip VPS anda
+- Paste di browser
+
+Jika proses backup berhasil, status node akan muncul `address` dan `peerId` dari node yang di backup sebelumya.
+
 <h2 align="center"><strong>Perintah-perintah Berguna</strong></h2>
 
 check list docker yang berjalan
